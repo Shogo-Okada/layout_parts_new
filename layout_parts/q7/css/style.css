@@ -2,4 +2,27 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/*q7-1-floatここから*/
+
+.q7_inner {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.q71_float {
+  width: 225px;
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.q71_first_child:first-child {
+  margin-left: 0;
+}
 /* 回答はここに書いてね */

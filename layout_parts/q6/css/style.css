@@ -2,4 +2,93 @@
 
 /* 回答はここに書いてね */
 
+/*q6-1回答ここから*/
+
+.q6_content_text {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.q6_main_box {
+  text-align: center;
+  display: inline-block;
+}
+
+.q6_text_box {
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+}
+
+.margin {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*q6-1回答ここまで*/
+
+/*q6-2回答ここから*/
+/*q6-tableここから*/
+.q6--around {
+  display: table;
+}
+
+.q6_text_table {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.table {
+  background-color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+}
+/*q6-tableここまで*/
+
+/*q6-flexここから*/
+.q6_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.flex {
+  background-color: #fff;
+  padding: 10px 10px;
+}
+/*q6-flexここまで*/
+
+/*q6-position固定ここから*/
+.is-stable,.is-flexible {
+  position: relative;
+}
+
+.stable {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+/*q6-position固定ここまで*/
+/*q6-position可変ここから*/
+
+.flexible {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/*q6-position可変ここまで*/
+/*q6-2回答ここまで*/
+
 /* 回答はここに書いてね */
