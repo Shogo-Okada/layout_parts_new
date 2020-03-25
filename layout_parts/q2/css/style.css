@@ -13,7 +13,7 @@
   padding: 20px;
   box-sizing: border-box;
   background-color: #eff3f4;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .q2_content_top_box {
@@ -37,4 +37,5 @@
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;
+}
   /* 回答はここに書いてね */

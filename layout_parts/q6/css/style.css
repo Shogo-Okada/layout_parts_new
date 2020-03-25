@@ -2,6 +2,17 @@
 
 /* 回答はここに書いてね */
 
+/*まとめcss*/
+.q6_text_align {
+  text-align: center;
+}
+
+.q6_inline_block {
+  display: inline-block;
+}
+/*まとめcssここまで*/
+
+
 /*q6-1回答ここから*/
 
 .q6_content_text {
@@ -11,22 +22,8 @@
   box-sizing: border-box;
 }
 
-.q6_main_box {
-  text-align: center;
-  display: inline-block;
-}
-
-.q6_text_box {
-  text-align: center;
-}
-
-.text {
-  display: inline-block;
-}
-
 .margin {
   margin: 0 auto;
-  text-align: center;
 }
 
 /*q6-1回答ここまで*/
@@ -38,16 +35,13 @@
 }
 
 .q6_text_table {
-  text-align: center;
   vertical-align: middle;
   display: table-cell;
 }
 
 .table {
   background-color: #fff;
-  padding: 10px 10px;
-  text-align: center;
-  display: inline-block;
+  padding: 10px;
 }
 /*q6-tableここまで*/
 
@@ -56,11 +50,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
 }
 .flex {
   background-color: #fff;
-  padding: 10px 10px;
+  padding: 10px;
 }
 /*q6-flexここまで*/
 

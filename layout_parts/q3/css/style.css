@@ -8,32 +8,29 @@
   table-layout: fixed;
 }
 
-td,th {
+.q3_content td,th {
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
 }
 
-th {
+.q3_content th {
+  background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-td {
+.q3_content td {
   font-size: 16px;
   line-height: 22px;
 }
 
-th {
-  background-color: #2244aa;
-}
-
-tr:nth-child(odd) {
+.q3_content tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tr:last-child {
+.q3_content_tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
