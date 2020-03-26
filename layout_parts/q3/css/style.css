@@ -8,7 +8,8 @@
   table-layout: fixed;
 }
 
-.q3_content td,th {
+.q3_content td,
+.q3_content th {
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
@@ -30,7 +31,7 @@
   background-color: #ecf1f2;
 }
 
-.q3_content_tbody tr:last-child {
+.q3_content tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
