@@ -24,69 +24,65 @@
 
 /*q7-1-floatここから*/
 
-.q71_float {
+.q7-1_float {
   float: left;
 }
 
 /*q7-2-tableここから*/
 
-.q72_table {
+.q7-2_table {
   display: table;
 }
 
-.q72_table_cell {
+/* table-cell間隔に使用
+  border-collapse: separate;
+  border-spacing: 左右　上下; */
+
+.q7-2_table_cell {
   display: table-cell;
   vertical-align: middle;
 }
 
 /*q7-3-inline-blockここから*/
 
-.q73_inline {
+.q7-3_inline {
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
 }
 
-.q73_inner {
+.q7-3_inner {
   font-size: 0;
 }
 
 /*q7-4-flexここから*/
 
-.q74_inner {
+.q7-4_inner {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
 }
 
-.q74_flex {
-  justify-content: center;
-  align-items: center;
-}
-
 /*q7-5-inline-block-marginここから*/
 
 .is-full {
-  width: 100%;
-  box-sizing: border-box;
   font-size: 0;
 }
 .q7__box__text {
   font-size: 16px;
 }
 
-.q75_box_left {
+.q7-5_box_left {
   width: 300px;
   display: inline-block;
   vertical-align: top;
 }
 
-.q75_box_right {
+.q7-5_box_right {
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
   padding-left: 350px;
   margin-left: -300px;
-  vertical-align: top;
 }
 /* 回答はここに書いてね */
